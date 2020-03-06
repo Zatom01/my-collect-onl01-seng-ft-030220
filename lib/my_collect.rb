@@ -3,9 +3,9 @@
 def my_collect(array)
   new_array=[]
   
-  
-  if array[0].split(" ").size>1
-    i=0 
+  i=0
+  if array[i].split(" ").size>1
+    
     while i<array.length do
       yield(array[i])
       new_array.push(array[i].split(" ").first)
@@ -15,7 +15,7 @@ def my_collect(array)
     new_array
     
   else
-    i=0
+    
     while i<array.length do
       yield(array[i])
       new_array.push(array[i].upcase) 
