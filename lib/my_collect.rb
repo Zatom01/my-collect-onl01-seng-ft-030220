@@ -11,10 +11,10 @@ def my_collect(array)
     
     new_array.push(array[i].split(" ").first)
     
-    yield(array[i])
+    
     new_array.push(array[i].upcase)
     
-    
+    yield(array[i])
     i+=1 
   end
   
