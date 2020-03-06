@@ -8,7 +8,7 @@ def my_collect(array)
     yield(array[i])
     
     # if array[i].split(" ").first.size>1
-    #   new_array.push(array[i].split(" ").first)
+    new_array.push(array[i].split(" ").first)
     # else
     #   new_array.push(array[i].upcase)
     # end
