@@ -1,6 +1,6 @@
 # collection=["Jim Jones","Anil G","Alina G"]
 
-def my_collect(array)
+def my_collect(array.upcase)
   new_array=[]
   
   i=0
