@@ -8,7 +8,7 @@ def my_collect(array)
     
   while i<array.length do
     yield(array[i])
-    return new_array.push(array[i].split(" ").first)
+    new_array.push(array[i].split(" ").first)
     
     
     i+=1 
