@@ -4,13 +4,15 @@ def my_collect(array)
   new_array=[]
   
   i=0 
+  
+  
   while i<array.length do
     yield(array[i])
     
     # if array[i].split(" ").first.size>1
     #new_array.push(array[i].split(" ").first)
     # else
-    new_array.push(array[i].upcase)
+    new_array.push(array[i].upcase) 
     # end
     
     i+=1 
