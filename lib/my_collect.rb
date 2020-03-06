@@ -11,7 +11,8 @@ def my_collect(array)
     
     new_array.push(array[i].split(" ").first)
     
-    # new_array.push(array[i].upcase)
+    yield(array[i])
+    new_array.push(array[i].upcase)
     
     
     i+=1 
