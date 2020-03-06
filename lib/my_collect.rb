@@ -9,11 +9,9 @@ def my_collect(array)
   while i<array.length do
     yield(array[i])
     
-    if array[i].split(" ").size>1 
-      
-      new_array.push(array[i].split(" ").first)
-    else
-      new_array.push(array[i].upcase)
+    new_array.push(array[i].split(" ").first)
+    
+    new_array.push(array[i].upcase)
     
     
     i+=1 
