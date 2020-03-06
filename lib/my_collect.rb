@@ -4,24 +4,16 @@ def my_collect(array)
   new_array=[]
   
   i=0
-  if array[i].split(" ").first.size>1
+  
     
-    while i<array.length do
-      yield(array[i])
-      new_array.push(array[i].split(" ").first)
-      i+=1 
-    end
+  while i<array.length do
+    yield(array[i])
+    new_array.push(array[i].split(" ").first)
+    i+=1 
+  end
+  
+  new_array
     
-    new_array
-    
-  else
-    
-    while i<array.length do
-      yield(array[i])
-      new_array.push(array[i].upcase) 
-      i+=1 
-    end
-    new_array
     
   
 end
