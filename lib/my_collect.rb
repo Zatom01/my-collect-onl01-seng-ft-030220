@@ -13,6 +13,7 @@ def my_collect(array)
     end
     
     new_array
+    
   else
     while i<array.length do
       yield(array[i])
