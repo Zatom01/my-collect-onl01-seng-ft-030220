@@ -1,27 +1,27 @@
 # collection=["Jim Jones","Anil G","Alina G"]
 
-def my_collect(array)
-  new_array=[]
+# def my_collect(array)
+#   new_array=[]
   
-  i=0
+#   i=0
   
     
-  while i<array.length do
-    yield(array[i])
+#   while i<array.length do
+#     yield(array[i])
     
-    new_array.push(array[i].split(" ").first)
+#     new_array.push(array[i].split(" ").first)
     
     
-    # new_array.push(array[i].upcase)
+#     # new_array.push(array[i].upcase)
     
-    i+=1 
-  end
+#     i+=1 
+#   end
   
-  new_array
+#   new_array
     
     
   
-end
+# end
 
 
 # if collection[0].split(" ").size>1 
